@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
  #logo { 
   float: left;
   display: inline-block;
@@ -133,6 +134,12 @@ a.effect-shine:hover {
   #box3 {
     height: 250px;
     }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
  }
 
 </style>
@@ -140,14 +147,11 @@ a.effect-shine:hover {
 
 <body>
 <div id='nav'>
-    <a href="www.axelstenson.com">
-      <img id="logo" src="images/AxelLogo.png" alt="Logo">
-    </a>
-    
+    <img src="images/AxelLogo.png" id="logo"  />
+
  <nav>   
    <ul class="nav">
-
-      <li><a href="contact.html" class="effect-shine">CONTACT</a></li>
+      <li><a href="mailto:axellarsstenson@gmail.com" class="effect-shine">CONTACT</a></li>
    </ul>
 </nav>
   <div class="clear"></div>
