@@ -12,7 +12,7 @@ Text | ![#000000](https://placehold.it/80/000000/000000?text=+) `#000000`
 
 ## Screenshot
 
-![Gloom Screenshot](https://raw.githubusercontent.com/axellarsstenson/gloom-syntax/master/images/Gloom_Screenshot.png)
+![Site Screenshot](https://raw.githubusercontent.com/axellarsstenson/axellarsstenson.github.io/master/images/IndexScreenshot.png)
 
 ## Credit
 
