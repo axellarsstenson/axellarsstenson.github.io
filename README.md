@@ -20,4 +20,4 @@ axelstenson.com is coded, optimized, and maintained by Axel Stenson.
 
 ## License
 
-Licensed under [MIT License](https://github.com/axellarsstenson/gloom-syntax/blob/master/LICENSE.md) and open source.
+Licensed under [MIT License](https://github.com/axellarsstenson/axellarsstenson.github.io/blob/master/LICENSE) and open source.
