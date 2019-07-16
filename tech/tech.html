@@ -13,45 +13,46 @@
 </head>
 
 <style>
-html,
-body {
-  font-family: 'Verdana';
-  text-align: center;
-}
+  html,
+  body {
+    background-color: #ffe4e1;
+    font-family: 'Verdana';
+    text-align: center;
+  }
 
-* {
-  margin: 0;
-  padding: 0;
-}
- #logo {
-  float: left;
-  display: inline-block;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+   #logo {
+    float: left;
+    display: inline-block;
+  }
 
-.clear {
-  clear: both;
-}
+  .clear {
+    clear: both;
+  }
 
 
-#nav {
-    background-color: #ffe4e1;  /*turns nav bar white*/
-    color: white;
-    width: 100%;
-    font-family: "Verdana";
-}
+  #nav {
+      background-color: #ffe4e1;  /*turns nav bar white*/
+      color: white;
+      width: 100%;
+      font-family: "Verdana";
+  }
 
-.nav {
-  float: right;
-  list-style: none;    /*gets rid of bullet points*/
-   text-align: left;
-    /*padding: 0px -10px 0px -10px; */
-  margin: 0;
-}
+  .nav {
+    float: right;
+    list-style: none;    /*gets rid of bullet points*/
+     text-align: left;
+      /*padding: 0px -10px 0px -10px; */
+    margin: 0;
+  }
 
-.nav > li {                                                             /*max-width: 768px*/
-    display:Inline-block;
-    padding: 18px 10px 17px 10px;                               /*nav bar text*/
-}
+  .nav > li {                                                             /*max-width: 768px*/
+      display:Inline-block;
+      padding: 18px 10px 17px 10px;                               /*nav bar text*/
+  }
 
  .nav > li a {
      text-decoration: none;
@@ -60,50 +61,45 @@ body {
      padding: 0px 20px 5px 0px
  }
 
-@media only screen and (max-width: 500px) {
-  nav ul {
-    text-align: center;
-  }
-  nav ul li {
-    margin: 20px;
-  }
-  .project {
-    margin: 40px 0;
-  }
-}
-
-a.effect-shine:hover {
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 1s infinite;
-}
-
-@-webkit-keyframes shine {
-  from {
-    -webkit-mask-position: 150%;
+  @media only screen and (max-width: 500px) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin: 20px;
+    }
+    .project {
+      margin: 40px 0;
+    }
   }
 
-  to {
-    -webkit-mask-position: -50%;
-  }
-}
-
-.logo {
-  float: left;
-  display: inline-block;
-}
-
-@media handheld and (max-width:768px),
-      screen and (max-width: 768px) {
-  #logo{
-    visibility: hidden;
-  }
-}
-
-  body {
-    background-color: #ffe4e1;
+  a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 1s infinite;
   }
 
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+  .logo {
+    float: left;
+    display: inline-block;
+  }
+
+  @media handheld and (max-width:768px),
+        screen and (max-width: 768px) {
+    #logo{
+      visibility: hidden;
+    }
+  }
 
   .boxcontainerholder{
     display: flex;
