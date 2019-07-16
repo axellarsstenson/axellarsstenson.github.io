@@ -10,6 +10,14 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
   html,
+
+  header {
+    background-color: #ffe4e1;
+    text-align: center;
+    padding: 32px;
+    padding-bottom: 150px;
+  }
+
   body {
     margin: 0;
     font-family: 'Verdana';
@@ -100,13 +108,6 @@
     }
   }
 
-  .header {
-    background-color: #ffe4e1;
-    text-align: center;
-    padding: 32px;
-    padding-bottom: 150px;
-  }
-
   .row {
     display: -ms-flexbox; /* IE 10 */
     display: flex;
@@ -114,6 +115,12 @@
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
+  .view_buttons {
+    text-align: center;
+    padding: 32px;
+  }
+
 
   /* Create two equal columns that sits next to each other */
   .column {
@@ -168,7 +175,7 @@
 
   <body>
 
-    <div class="header" id="myHeader">
+    <div id='view_buttons'>
       <button class="btn" onclick="one()">1</button>
       <button class="btn active" onclick="two()">2</button>
       <button class="btn" onclick="four()">4</button>
